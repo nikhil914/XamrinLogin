@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="DummyLogin.Page1">
+    <ContentPage.Content>
+        <StackLayout>
+
+            <Label Text="Welcome to Irow9" FontSize="Title" HorizontalTextAlignment="Center" TextColor="#DF1E29" />
+            <Label x:Name="greetText" Text="Signup Page" FontSize="14" HorizontalTextAlignment="Center"/>
+
+            <Entry x:Name="Name"  Placeholder="Email Address"  Keyboard="Email" Margin="15,0,15,0"/>
+            <Entry x:Name="email"  Placeholder="Email Address"  Keyboard="Email" Margin="15,0,15,0"/>
+            <Entry x:Name="password"  Placeholder="Password"    IsPassword="True" Margin="15,0,15,0"/>
+
+            <Button Text="S U B M I T" BackgroundColor="#DF1E29" Margin="15"  Clicked="Button_Clicked"/>
+
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
